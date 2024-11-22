@@ -1,0 +1,11 @@
+spring:
+  r2dbc:
+    url: r2dbc:h2:mem:///testdb
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true # Enables H2 Console for debugging (Optional)
+      path: /h2-console
+server:
+  port: 8086 # Application will run on port 8080
